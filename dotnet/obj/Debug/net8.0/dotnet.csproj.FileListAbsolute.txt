@@ -12,3 +12,4 @@
 /Users/jlong/Desktop/aa/dotnet/obj/Debug/net8.0/dotnet.pdb
 /Users/jlong/Desktop/aa/dotnet/obj/Debug/net8.0/dotnet.genruntimeconfig.cache
 /Users/jlong/Desktop/aa/dotnet/obj/Debug/net8.0/ref/dotnet.dll
+/Users/jlong/Desktop/aa/dotnet/obj/Debug/net8.0/dotnet.sourcelink.json

@@ -13,7 +13,7 @@ async def fetch_website_data(url):
 
 async def main():
     website_data = await fetch_website_data(url="https://catfact.ninja/fact")
-    print(f"Fact: {json.loads(website_data)['fact']}")
+    print(f"Fact:", json.loads(website_data)['fact'])
 
 
 # Run the main function using asyncio

@@ -11,7 +11,6 @@ class Program
     {
         var url = "https://catfact.ninja/fact";
         var json = await MakeHttpGet(url);
-        Console.WriteLine(json);
         var cat = JsonSerializer.Deserialize<CatFact>(json , new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         Console.WriteLine(cat.Fact);
     }
